@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.eloadas{
+    background-color: greenyellow;
+}
+
+.gyakorlat{
+    background-color: coral;
+}

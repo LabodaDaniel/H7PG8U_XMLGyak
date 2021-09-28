@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<note_extend>
+    <date>2020-09-01</date>
+    <hour>08:30</hour>
+    <to>Péter</to>
+    <from>Jani</from>
+    <heading>Emlékeztető</heading>
+    <body>Ne felejtsd el, amit megbeszéltünk</body>
+</note_extend>

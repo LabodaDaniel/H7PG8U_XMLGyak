@@ -1,0 +1,40 @@
+*{
+    background-color: #FF01FF;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}
+
+.main-img{
+    max-width: 30%;
+}
+
+a{
+    color: #CCCA14;
+    font-size:20px;
+    font-weight: bold;
+}
+
+h3, p{
+    color: #C5FF40;
+}
+
+ol{
+    color: #C5FF40;
+    text-align: left;
+}
+
+.quater{
+    width: 25%;
+}
+
+.padding{
+    padding-top:10vh;
+}
+
+.show-img{
+    width: 150%;
+}
