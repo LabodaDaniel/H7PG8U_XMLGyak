@@ -1,0 +1,12 @@
+
+
+
+
+<!DOCTYPE konyvtar [
+<!ELEMENT konyvtar (konyv)*>
+<!ELEMENT konyv (cim,kiadasiEv,kiado,szerzo)>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT kiadasiEv (#PCDATA)>
+<!ELEMENT kiado (#PCDATA)>
+<!ELEMENT szerzo (#PCDATA)+>
+]>

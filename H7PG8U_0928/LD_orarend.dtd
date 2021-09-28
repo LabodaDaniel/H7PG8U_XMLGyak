@@ -1,0 +1,30 @@
+
+<!ELEMENT orarend (ora)+>
+<!ATTLIST orarend
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ora (targy,idopont,helyszin,oktato,szak)>
+<!ATTLIST ora
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED
+  tipus NMTOKEN #REQUIRED>
+
+<!ELEMENT targy (#PCDATA)>
+<!ATTLIST targy
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT idopont (#PCDATA)>
+<!ATTLIST idopont
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT helyszin (#PCDATA)>
+<!ATTLIST helyszin
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT oktato (#PCDATA)>
+<!ATTLIST oktato
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT szak (#PCDATA)>
+<!ATTLIST szak
+  xmlns CDATA #FIXED ''>

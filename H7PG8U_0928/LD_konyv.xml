@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE konyvtar SYSTEM "SP_konyv.dtd">
+<konyvtar>
+	<konyv id="1">
+		<cim>Játszóház</cim>
+        <kiadasiEv>1999</kiadasiEv>
+        <kiado>Álomgyár</kiado>
+        <szerzo>Stephan King</szerzo>
+	</konyv>
+    <konyv id="2">
+		<cim>Szürke 50 árnyalata</cim>
+        <kiadasiEv>2025</kiadasiEv>
+        <kiado>Libri</kiado>
+        <szerzo>E.L.James</szerzo>
+	</konyv>
+    <konyv id="3">
+		<cim>3 méterrel a felhők felett</cim>
+        <kiadasiEv>2010</kiadasiEv>
+        <kiado>Álomgyár</kiado>
+        <szerzo>X Y</szerzo>
+	</konyv>
+</konyvtar>
