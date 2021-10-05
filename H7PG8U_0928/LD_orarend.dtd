@@ -1,30 +1,14 @@
-
-<!ELEMENT orarend (ora)+>
-<!ATTLIST orarend
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT ora (targy,idopont,helyszin,oktato,szak)>
-<!ATTLIST ora
-  xmlns CDATA #FIXED ''
-  id CDATA #REQUIRED
-  tipus NMTOKEN #REQUIRED>
-
-<!ELEMENT targy (#PCDATA)>
-<!ATTLIST targy
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT idopont (#PCDATA)>
-<!ATTLIST idopont
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT helyszin (#PCDATA)>
-<!ATTLIST helyszin
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT oktato (#PCDATA)>
-<!ATTLIST oktato
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT szak (#PCDATA)>
-<!ATTLIST szak
-  xmlns CDATA #FIXED ''>
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT orarend (ora+)>
+	<!ELEMENT ora (targy, idopont, helyszin, oktato, szak)>
+		<!ATTLIST ora id ID #REQUIRED>
+		<!ATTLIST ora tipus (előadás|gyakorlat) #REQUIRED>
+		<!ELEMENT targy (#PCDATA)>
+		<!ELEMENT idopont (#PCDATA)>
+			<!ATTLIST idopont nap (Hétfő|Kedd|Szerda|Csütörtök|Péntek) #REQUIRED>
+			<!ATTLIST idopont tol CDATA #REQUIRED>
+			<!ATTLIST idopont ig CDATA #REQUIRED>
+		<!ELEMENT helyszin (#PCDATA)>
+		<!ELEMENT oktato (#PCDATA)>
+		<!ELEMENT szak (#PCDATA)>
+		

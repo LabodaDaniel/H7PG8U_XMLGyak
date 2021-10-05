@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE konyvek SYSTEM "PE_ertodtd.dtd">
+<feladat>
+	<A Aa="_1">
+		<Ab>
+			<Abx>abc</Abx>
+			<Aby>def</Aby>
+		</Ab>	
+		<Ac>
+			<Acd>abc</Acd>
+			<Acey>def</Ace>
+		</Ac>			
+	</A>
+
+</feladat>

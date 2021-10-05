@@ -1,12 +1,9 @@
-
-
-
-
-<!DOCTYPE konyvtar [
-<!ELEMENT konyvtar (konyv)*>
-<!ELEMENT konyv (cim,kiadasiEv,kiado,szerzo)>
-<!ELEMENT cim (#PCDATA)>
-<!ELEMENT kiadasiEv (#PCDATA)>
-<!ELEMENT kiado (#PCDATA)>
-<!ELEMENT szerzo (#PCDATA)+>
-]>
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT konyvek (konyv*)>
+	<!ELEMENT konyv (cim, kiadaseve, kiado, szerzo+, abstract)>
+		<!ATTLIST konyv id ID #REQUIRED>
+		<!ELEMENT cim (#PCDATA)>
+		<!ELEMENT kiadaseve (#PCDATA)>
+		<!ELEMENT kiado (#PCDATA)>
+		<!ELEMENT szerzo (#PCDATA)>
+		<!ELEMENT abstract ANY>
