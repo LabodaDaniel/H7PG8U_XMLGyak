@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PE_orarend.xsd">
+	<ora id="_1" tipus="előadás">
+		<targy>Web technológiák</targy>
+		<idopont nap="Hétfő" tol="12:00" ig="14:00"/>
+		<helyszin>XXX A1 III. em. 305-</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>PTI</szak>
+	</ora>
+	<ora id="_2" tipus="előadás">
+		<targy>Mesterséges inteligencia</targy>
+		<idopont nap="Hétfő" tol="14:00" ig="17:00"></idopont>
+		<helyszin>XXXII A1 magasfsz</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>PTI</szak>
+	</ora>
+	<ora id="_3" tipus="gyakorlat">
+		<targy>Web technológiák</targy>
+		<idopont nap="Hétfő" tol="17:00" ig="19:00"/>
+		<helyszin>In/101 In I.e 101</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>PTI</szak>
+	</ora>
+	<ora id="_4" tipus="előadás">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont nap="Kedd" tol="12:00" ig="14:00"/>
+		<helyszin>I A2 fsz.</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>PTI</szak>
+	</ora>
+	<ora id="_5" tipus="gyakorlat">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont nap="Kedd" tol="14:00" ig="16:00"/>
+		<helyszin>In/103</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>PTI</szak>
+	</ora>
+	<ora id="_6" tipus="gyakorlat">
+		<targy>Mesterséges inteligencia</targy>
+		<idopont nap="Szerda" tol="10:00" ig="11:00"/>
+		<helyszin>In/15 In. fsz 15</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>PTI</szak>
+	</ora>
+</orarend>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mozi SYSTEM "PE_mozi1.dtd">
+
+<!-- 
+<mozi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PE_mozi1.xsd">
+-->
+<mozi>
+	<film id="1" mufaj="horror">
+		<rendezo id="1" nev="Dani/>
+		<rendezo id="2" nev="Dani"/>
+		<szinesz id="1" nev="Megan Fox"/>
+		<iro id="1"/>	
+	</film>
+	<film id="2" mufaj="scifi">
+		<rendezo id="3" nev="Dani"/>
+		<rendezo id="4" nev="Dani"/>
+		<szinesz id="2" nev="Megan Fox"/>
+		<iro id="1"/>	
+	</film>
+</mozi>
