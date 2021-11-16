@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="hallgatoNDRQ1Y.xsl"?>
+
+<osztaly>
+    <hallgato id = "01">
+        <vezeteknev>Laboda</vezeteknev>
+        <keresztnev>Daniel</keresztnev>
+        <becenev>Dani</becenev>
+        <kor>23</kor>
+    </hallgato>
+
+    <hallgato id = "02">
+        <vezeteknev>Kovacs</vezeteknev>
+        <keresztnev>Bence</keresztnev>
+        <becenev>Benő</becenev>
+        <kor>25</kor>
+    </hallgato>
+
+    <hallgato id = "03">
+        <vezeteknev>Dekány</vezeteknev>
+        <keresztnev>Péter</keresztnev>
+        <becenev>Peti</becenev>
+        <kor>19</kor>
+    </hallgato>
+</osztaly>

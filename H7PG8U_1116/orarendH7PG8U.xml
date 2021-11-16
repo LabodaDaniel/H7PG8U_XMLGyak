@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+    <ora id="1" tipus="eloadas">
+        <targy>Mesterséges intelligencia</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>12</tol>
+            <ig>15</ig>
+        </idopont>
+        <helyszin>XXX. előadó</helyszin>
+        <oktato>Dr. Dudás László</oktato>
+        <szak>Programtervezőinformatikus</szak>
+    </ora>
+    <ora id="2" tipus="eloadas">
+        <targy>Adatkezelés XML környezetben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>XXXVII. előadó</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervezőinformatikus</szak>
+    </ora>
+    <ora id="3" tipus="gyakorlat">
+        <targy>Adatkezelés XML környezetben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervezőinformatikus</szak>
+    </ora>
+    <ora id="4" tipus="gyakorlat">
+        <targy>Mesterséges intelligencia</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>11</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>In/15</helyszin>
+        <oktato>Dr. Dudás László</oktato>
+        <szak>Programtervezőinformatikus</szak>
+    </ora>
+    <ora id="5" tipus="eloadas">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>XXXVII. előadó</helyszin>
+        <oktato>Dr. Sasvári Péter</oktato>
+        <szak>Programtervezőinformatikus</szak>
+    </ora>
+    <ora id="6" tipus="gyakorlat">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>18</tol>
+            <ig>20</ig>
+        </idopont>
+        <helyszin>XXXVII. előadó</helyszin>
+        <oktato>Dr. Sasvári Péter</oktato>
+        <szak>Programtervezőinformatikus</szak>
+    </ora>
+</orarend>
