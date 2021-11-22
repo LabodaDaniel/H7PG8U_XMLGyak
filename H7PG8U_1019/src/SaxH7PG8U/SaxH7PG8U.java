@@ -1,4 +1,4 @@
-package SaxFB8YPQ1019;
+package SaxH7PG8U1019;
 import java.io.File;
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import javax.xml.parsers.SAXParserFactory;
 
 import org.xml.sax.SAXException;
 
-public class SaxFB8YPQ {
+public class SaxH7PG8U {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,7 +17,7 @@ public class SaxFB8YPQ {
             SAXParser saxParser = saxParseFactory.newSAXParser();
             SaxHandler handler = new SaxHandler();
             
-            saxParser.parse(new File("szemelyekFB8YPQ.xml"), handler);
+            saxParser.parse(new File("szemelyekH7PG8U.xml"), handler);
             
         }catch(ParserConfigurationException | SAXException | IOException e){
             e.printStackTrace();

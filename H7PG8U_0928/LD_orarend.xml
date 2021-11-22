@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE konyvek SYSTEM "PE_orarend.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE konyvek SYSTEM "LD_orarend.dtd">
 <orarend>
 	<ora id="_1" tipus="előadás">
 		<targy>Web technológiák</targy>

@@ -1,4 +1,4 @@
-package domfb8ypq1026;
+package domH7PG8U1026;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,12 +18,12 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-public class DomQueryFB8YPQ {
+public class DomQueryH7PG8U {
 
 	public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, TransformerException  {
 		// TODO Auto-generated method stub
-		File xmlFile = new File("carsFB8YPQ.xml"); //xml fájl bekérése
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance(); //olvasás lehetõvé tétele
+		File xmlFile = new File("carsH7PG8U.xml"); //xml fï¿½jl bekï¿½rï¿½se
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance(); //olvasï¿½s lehetï¿½vï¿½ tï¿½tele
         DocumentBuilder dBuilder = factory.newDocumentBuilder();
         Document doc = dBuilder.parse(xmlFile);
         doc.getDocumentElement().normalize();

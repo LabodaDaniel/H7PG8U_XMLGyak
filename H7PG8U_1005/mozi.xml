@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mozi SYSTEM "PE_mozi1.dtd">
+<!DOCTYPE mozi SYSTEM "LD_mozi1.dtd">
 
 <!-- 
 <mozi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PE_mozi1.xsd">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE konyvek SYSTEM "PE_konyv.dtd">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE konyvek SYSTEM "LD_konyv.dtd">
 <konyvek>
 	<konyv id="_1">
 		<cim>Direct2D: DirectX programozás egyszerűen</cim>	

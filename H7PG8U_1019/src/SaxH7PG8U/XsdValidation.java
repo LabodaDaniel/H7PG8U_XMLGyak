@@ -1,4 +1,4 @@
-package SaxFB8YPQ1019;
+package SaxH7PG8U1019;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,8 +13,8 @@ import org.xml.sax.SAXException;
 
 public class XsdValidation {
 	
-	public static final String XMLPATH = "/SaxFB8YPQ/szemelyekFB8YPQ.xml";
-	public static final String XSDPATH = "/SaxFB8YPQ/szemelyekFB8YPQ.xsd";
+	public static final String XMLPATH = "/SaxH7PG8U/szemelyekH7PG8U.xml";
+	public static final String XSDPATH = "/SaxH7PG8U/szemelyekH7PG8U.xsd";
 	
 	public static void main(String[] args) {
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PE_orarend.xsd">
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LD_orarend.xsd">
 	<ora id="_1" tipus="előadás">
 		<targy>Web technológiák</targy>
 		<idopont nap="Hétfő" tol="12:00" ig="14:00"/>

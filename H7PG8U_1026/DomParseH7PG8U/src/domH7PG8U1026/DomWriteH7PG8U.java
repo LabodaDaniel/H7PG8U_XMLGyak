@@ -1,4 +1,4 @@
-package domfb8ypq1026;
+package domH7PG8U1026;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
-public class DomWriteFB8YPQ {
+public class DomWriteH7PG8U {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -26,7 +26,7 @@ public class DomWriteFB8YPQ {
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = factory.newDocumentBuilder();
 			Document newDoc = dBuilder.newDocument();
-			Element newRoot = newDoc.createElementNS("domfb8ypq","users");
+			Element newRoot = newDoc.createElementNS("domH7PG8U","users");
 			newDoc.appendChild(newRoot);
 			
 			newRoot.appendChild(createUser(newDoc, "1", "Sebak", "Petra", "Developer"));
@@ -43,7 +43,7 @@ public class DomWriteFB8YPQ {
 			
 			DOMSource source = new DOMSource(newDoc);
 			
-			File myFile = new File("users1FB8YPQ.xml");
+			File myFile = new File("users1H7PG8U.xml");
 			
 			StreamResult console = new StreamResult(System.out);
 			StreamResult file = new StreamResult(myFile);

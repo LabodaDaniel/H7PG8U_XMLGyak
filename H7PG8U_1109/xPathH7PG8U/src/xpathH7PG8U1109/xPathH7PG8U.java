@@ -1,4 +1,4 @@
-package xpathfb8ypq1109;
+package xpathH7PG8U1109;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,12 +17,12 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
-public class xPathFB8YPQ {
+public class xPathH7PG8U {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-	         File inputFile = new File("studentFB8YPQ.xml");
+	         File inputFile = new File("studentH7PG8U.xml");
 	         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 	         DocumentBuilder dBuilder;
 
@@ -142,17 +142,17 @@ public class xPathFB8YPQ {
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                Element eElement = (Element) nNode;
                System.out.println("Student id : " + eElement.getAttribute("id"));
-               System.out.println("Keresztnév : " 
+               System.out.println("Keresztnï¿½v : " 
                   + eElement
                   .getElementsByTagName("keresztnev")
                   .item(0)
                   .getTextContent());
-               System.out.println("Vezetéknév : " 
+               System.out.println("Vezetï¿½knï¿½v : " 
                   + eElement
                   .getElementsByTagName("vezeteknev")
                   .item(0)
                   .getTextContent());
-               System.out.println("Becenév : " 
+               System.out.println("Becenï¿½v : " 
                   + eElement
                   .getElementsByTagName("becenev")
                   .item(0)

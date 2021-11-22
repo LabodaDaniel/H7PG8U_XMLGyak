@@ -1,4 +1,4 @@
-package domfb8ypq1026;
+package domH7PG8U1026;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,17 +13,17 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-public class DomReadFB8YPQ {
+public class DomReadH7PG8U {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			File xmlFile = new File("usersFB8YPQ.xml");
+			File xmlFile = new File("usersH7PG8U.xml");
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = factory.newDocumentBuilder();
 			Document doc = dBuilder.parse(xmlFile);
 			doc.getDocumentElement().normalize();
-			System.out.println("Személyek lekérdezése: ");
+			System.out.println("Szemï¿½lyek lekï¿½rdezï¿½se: ");
 			System.out.println("Root element: "+ doc.getDocumentElement().getNodeName());
 			ReadCurrentElement(doc);
 		}catch(ParserConfigurationException pce) {
