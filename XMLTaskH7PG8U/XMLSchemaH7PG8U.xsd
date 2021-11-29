@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="model">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Tulajdonosok">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Tulajdonos" type="Tulajdonos_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Pizzeriak">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Pizzeria" type="Pizzeria_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Pizzak">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Pizza" type="Pizza_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Vevok">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Vevo" type="Vevo_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Tulajdonos_Pizzeria_kapcsolok">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Tulajdonos_Pizzeria" type="Tulajdonos_Pizzeria_kapcsolo" minOccurs="0" maxOccurs="unbounded"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Pizzeria_Pizza_kapcsolok">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Pizzeria_Pizza" type="Pizzeria_Pizza_kapcsolo" minOccurs="0" maxOccurs="unbounded"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Pizza_Vevo_kapcsolok">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Pizza_Vevo" type="Pizza_Vevo_kapcsolo" minOccurs="0" maxOccurs="unbounded"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="Tulajdonos_type">
+		<xs:sequence>
+			<xs:element name="Nev"></xs:element>
+			<xs:element name="Szulido" type="Szulido_type"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Tkod" type="xs:integer" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="Pizzeria_type">
+		<xs:sequence>
+			<xs:element name="Nev"></xs:element>
+			<xs:element name="Telefonszam" maxOccurs="unbounded"></xs:element>
+			<xs:element name="Cim" type="Cim_type"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Pikod" type="xs:integer" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="Pizza_type">
+		<xs:sequence>
+			<xs:element name="Nev"></xs:element>
+			<xs:element name="Ar"></xs:element>
+			<xs:element name="Feltet" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Pkod" type="xs:integer" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="Vevo_type">
+		<xs:sequence>
+			<xs:element name="Nev"></xs:element>
+			<xs:element name="Telefonszam"></xs:element>
+			<xs:element name="Cim" type="Cim_type"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Vkod" type="xs:integer" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="Tulajdonos_Pizzeria_kapcsolo">
+		<xs:attribute name="Tulajdonosref" type="xs:integer" use="required"></xs:attribute>
+		<xs:attribute name="Pizzeriaref" type="xs:integer" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="Pizzeria_Pizza_kapcsolo">
+		<xs:attribute name="Pizzeriaref" type="xs:integer" use="required"></xs:attribute>
+		<xs:attribute name="Pizzaref" type="xs:integer" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="Pizza_Vevo_kapcsolo">
+		<xs:attribute name="Pizzaref" type="xs:integer" use="required"></xs:attribute>
+		<xs:attribute name="Vevoref" type="xs:integer" use="required"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="Cim_type">
+		<xs:sequence>
+			<xs:element name="Irszam"></xs:element>
+			<xs:element name="Varos"></xs:element>
+			<xs:element name="Utca"></xs:element>
+			<xs:element name="Hazszam"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Szulido_type">
+		<xs:sequence>
+			<xs:element name="Ev"></xs:element>
+			<xs:element name="Honap"></xs:element>
+			<xs:element name="Nap"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>
