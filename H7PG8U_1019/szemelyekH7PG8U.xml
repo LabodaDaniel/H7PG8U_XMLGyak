@@ -2,17 +2,17 @@
 
 <szemelyek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="szemelyekH7PG8U.xsd">
     <szemely id="1">
-        <nev>Sebák Petra</nev>
+        <nev>Kiss Akos</nev>
         <kor>22</kor>
         <varos>Miskolc</varos>
     </szemely>
     <szemely id="2">
-        <nev>Szalai Márton</nev>
+        <nev>Nagy Adam</nev>
         <kor>22</kor>
         <varos>Miskolc</varos>
     </szemely>
     <szemely id="3">
-        <nev>Lipták Dávid</nev>
+        <nev>Kozepes Dávid</nev>
         <kor>22</kor>
         <varos>Miskolc</varos>
     </szemely>
