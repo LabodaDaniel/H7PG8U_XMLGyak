@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LD_konyv.xsd">
+    <konyv isbn="9789631191714">
+        <cim>Pál utcai fiúk</cim>
+        <szerzo>Molár Ferenc</szerzo>
+        <szereplo id="1">
+            <nev>Nemecsek Ernő</nev>
+            <baratja>Boka János</baratja>
+            <szuletett>1872</szuletett>
+            <jellemzes>Könnyen kirándul</jellemzes>
+        </szereplo>
+        <szereplo id="2">
+            <nev>Boka János</nev>
+            <szuletett>1900</szuletett>
+            <jellemzes>Okos</jellemzes>
+        </szereplo>
+    </konyv>
+</konyvek>
