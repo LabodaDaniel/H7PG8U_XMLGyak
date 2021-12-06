@@ -2,21 +2,21 @@
 
 <class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="studentH7PG8U.xsd">
     <student id = "0">
-        <keresztnev>Petra</keresztnev>
-        <vezeteknev>Sebak</vezeteknev>
-        <becenev>Pepe</becenev>
+        <keresztnev>Kiss</keresztnev>
+        <vezeteknev>Akos</vezeteknev>
+        <becenev>Aki</becenev>
         <kor>22</kor>
     </student>
     <student id = "1">
-        <keresztnev>Márton</keresztnev>
-        <vezeteknev>Szalai</vezeteknev>
-        <becenev>Szasza</becenev>
+        <keresztnev>Nagy</keresztnev>
+        <vezeteknev>Adam</vezeteknev>
+        <becenev>Adi</becenev>
         <kor>22</kor>
     </student>
     <student id = "2">
-        <keresztnev>Márk</keresztnev>
-        <vezeteknev>Soós</vezeteknev>
-        <becenev>Sóska</becenev>
-        <kor>21</kor>
+        <keresztnev>Kozepes</keresztnev>
+        <vezeteknev>David</vezeteknev>
+        <becenev>Dave</becenev>
+        <kor>12</kor>
     </student>
 </class>
