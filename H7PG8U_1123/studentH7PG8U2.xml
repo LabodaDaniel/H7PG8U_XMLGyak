@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<?xml-stylesheet type='text/xsl' href='studentFB8YPQ-apply.xsl'?>
+<?xml-stylesheet type='text/xsl' href='studentFB8YPQ_choose.xsl'?>
 
 <class>
     <student id = "0">
@@ -9,19 +9,22 @@
         <becenev>Aki</becenev>
         <kor>22</kor>
         <fizetes>220000</fizetes>
+        <fokozat></fokozat>
     </student>
     <student id = "1">
-        <keresztnev>Nagy</keresztnev>
-        <vezeteknev>Adam</vezeteknev>
+        <keresztnev>Adam</keresztnev>
+        <vezeteknev>Nagy</vezeteknev>
         <becenev>Adi</becenev>
         <kor>22</kor>
         <fizetes>120000</fizetes>
+        <fokozat></fokozat>
     </student>
     <student id = "2">
-        <keresztnev>Kozepes</keresztnev>
-        <vezeteknev>David</vezeteknev>
+        <keresztnev>David</keresztnev>
+        <vezeteknev>Kozepes</vezeteknev>
         <becenev>Dave</becenev>
         <kor>12</kor>
         <fizetes>20000</fizetes>
+        <fokozat></fokozat>
     </student>
 </class>

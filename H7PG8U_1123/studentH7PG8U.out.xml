@@ -1,0 +1,56 @@
+<html>
+    <body>
+        <h2>Kiss Akos web</h2>
+         
+      ID: <span style="font-size = 22px;">0</span>
+        <br>
+         
+      Keresztnev: <span style="color:darkred;">Kiss</span>
+        <br>
+         
+      Vezeteknev: <span style="color:green;">Akos</span>
+        <br>
+        <span style="color:black;">Aki 
+      </span> 
+      kor: <span style="color:blue;">22</span>
+        <br>
+         
+      Fizetes: <span style="color:red;">220000</span>
+        <br>
+        <br>
+         
+      ID: <span style="font-size = 22px;">1</span>
+        <br>
+         
+      Keresztnev: <span style="color:darkred;">Adam</span>
+        <br>
+         
+      Vezeteknev: <span style="color:green;">Nagy</span>
+        <br>
+        <span style="color:black;">Adi 
+      </span> 
+      kor: <span style="color:blue;">22</span>
+        <br>
+         
+      Fizetes: <span style="color:red;">120000</span>
+        <br>
+        <br>
+         
+      ID: <span style="font-size = 22px;">2</span>
+        <br>
+         
+      Keresztnev: <span style="color:darkred;">David</span>
+        <br>
+         
+      Vezeteknev: <span style="color:green;">Kozepes</span>
+        <br>
+        <span style="color:black;">Dave 
+      </span> 
+      kor: <span style="color:blue;">12</span>
+        <br>
+         
+      Fizetes: <span style="color:red;">20000</span>
+        <br>
+        <br>
+    </body>
+</html>
