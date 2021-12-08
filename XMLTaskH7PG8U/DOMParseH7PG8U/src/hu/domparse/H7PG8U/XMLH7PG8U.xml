@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pizzahalozat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaH7PG8U.xsd">
+	<Tulajdonosok>
+	
+		<Tulajdonos TID="1">
+			<Nev>Nagy Béla</Nev>
+			<Eletkor>21</Eletkor>
+			<Szulido>1997</Szulido>
+		</Tulajdonos>
+		
+		<Tulajdonos TID="2">
+			<Nev>Lőre István</Nev>
+			<Eletkor>27</Eletkor>
+			<Szulido>1998</Szulido>
+		</Tulajdonos>
+		
+		<Tulajdonos TID="3">
+			<Nev>Kiss Imre</Nev>
+			<Eletkor>45</Eletkor>
+			<Szulido>2000</Szulido>
+		</Tulajdonos>
+		
+	</Tulajdonosok>
+	
+	<Pizzeriak>
+		<Pizzeria PiID="1" TIDRef="1">
+			<Nev>Italian Stallion</Nev>
+			<Telefonszam>012432123</Telefonszam>
+			<Cim>
+				<Irszam>1256</Irszam>
+				<Varos>Budapest</Varos>
+				<Utca>Ferencziek útja</Utca>
+				<Hazszam>14</Hazszam>
+			</Cim>
+		</Pizzeria>
+		
+		<Pizzeria PiID="2" TIDRef="2">
+			<Nev>New York Style</Nev>
+			<Telefonszam>05618478</Telefonszam>
+			<Cim>
+				<Irszam>3525</Irszam>
+				<Varos>Miskolc</Varos>
+				<Utca>Széchenyi István út</Utca>
+				<Hazszam>26</Hazszam>
+			</Cim>
+		</Pizzeria>
+		
+		<Pizzeria PiID="3" TIDRef="3">
+			<Nev>Lábas</Nev>
+			<Telefonszam>035637923</Telefonszam>
+			<Cim>
+				<Irszam>3540</Irszam>
+				<Varos>Alsózsolca</Varos>
+				<Utca>Fő út</Utca>
+				<Hazszam>6</Hazszam>
+			</Cim>
+		</Pizzeria>
+	</Pizzeriak>
+	
+	<Keszitesek>
+		<Kesziti PIDRef="1" PiIDRef="1">
+			<Stilus>Al Dente</Stilus>
+		</Kesziti>
+
+		<Kesziti PIDRef="2" PiIDRef="2">
+			<Stilus>Közepes</Stilus>
+		</Kesziti>
+
+		<Kesziti PIDRef="3" PiIDRef="3">
+			<Stilus>Pirított</Stilus>
+		</Kesziti>
+	</Keszitesek>
+
+	<Pizzak>
+		<Pizza PID="1">
+			<Nev>Margareta</Nev>
+			<Ar>1200</Ar>
+			<Feltet>Sajt</Feltet>
+		</Pizza>
+		
+		<Pizza PID="2">
+			<Nev>Sonkás</Nev>
+			<Ar>1400</Ar>
+			<Feltet>Sajt</Feltet>
+			<Feltet>Sonka</Feltet>
+		</Pizza>
+		
+		<Pizza PID="3">
+			<Nev>Szalámis</Nev>
+			<Ar>1400</Ar>
+			<Feltet>Sajt</Feltet>
+			<Feltet>Szalámi</Feltet>
+		</Pizza>
+		
+		<Pizza PID="4">
+			<Nev>Sonkás-Kukoricás</Nev>
+			<Ar>1600</Ar>
+			<Feltet>Sajt</Feltet>
+			<Feltet>Sonka</Feltet>
+			<Feltet>Kukorica</Feltet>
+		</Pizza>
+		
+		<Pizza PID="5">
+			<Nev>Lábas Speciál</Nev>
+			<Ar>2100</Ar>
+			<Feltet>Sajt</Feltet>
+			<Feltet>BBQ szósz</Feltet>
+			<Feltet>Pulled Pork</Feltet>
+			<Feltet>Bacon</Feltet>
+		</Pizza>
+	</Pizzak>
+
+	<Vasarlasok>
+		<Megveszi PIDRef="1" VIDRef="1">
+			<Tranzakcio>123</Tranzakcio>
+		</Megveszi>
+
+		<Megveszi PIDRef="2" VIDRef="2">
+			<Tranzakcio>456</Tranzakcio>
+		</Megveszi>
+
+		<Megveszi PIDRef="3" VIDRef="3">
+			<Tranzakcio>789</Tranzakcio>
+		</Megveszi>
+	</Vasarlasok>
+	
+	<Vevok>
+		<Vevo VID="1">
+			<Nev>Nagy Ferenc</Nev>
+			<Telefonszam>77895412</Telefonszam>
+			<Cim>
+				<Irszam>3519</Irszam>
+				<Varos>Miskolc</Varos>
+				<Utca>Fenyő utca</Utca>
+				<Hazszam>23</Hazszam>
+			</Cim>
+		</Vevo>
+		
+		<Vevo VID="2">
+			<Nev>Novák Balázs</Nev>
+			<Telefonszam>078954412</Telefonszam>
+			<Cim>
+				<Irszam>1149</Irszam>
+				<Varos>Budapest</Varos>
+				<Utca>Vezér utca</Utca>
+				<Hazszam>149</Hazszam>
+			</Cim>
+		</Vevo>
+		
+		<Vevo VID="3">
+			<Nev>Trab Antal</Nev>
+			<Telefonszam>012258</Telefonszam>
+			<Cim>
+				<Irszam>3530</Irszam>
+				<Varos>Miskolc</Varos>
+				<Utca>Pattantyús utca</Utca>
+				<Hazszam>14</Hazszam>
+			</Cim>
+		</Vevo>
+	</Vevok>
+
+
+	
+</Pizzahalozat>
